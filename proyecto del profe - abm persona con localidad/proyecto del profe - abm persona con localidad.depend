@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1556372814 source:c:\users\alumno\desktop\proyecto del profe - abm persona con localidad\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+
