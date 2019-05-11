@@ -31,6 +31,8 @@ void OrdenarAlumnos(eAlumno lista[], int tam);
 int cantNotasMayores(eAlumno lista[], int tam);
 int notaMayor(eAlumno lista[],int tam);
 void notaMayorConNombre(eAlumno lista[],int tam);
+void mostrarLocalidadesConAlumnos(eLocalidad listLoc[], int tamLoc, eAlumno listaAlum[], int tam);
+
 
 int main()
 {
@@ -50,6 +52,9 @@ int main()
     notaMayor(lista,TAM_ALUMNO);
     printf("\n--------------------------------------------\n");
     notaMayorConNombre(lista,TAM_ALUMNO);
+    printf("\n--------------------------------------------\n");
+    mostrarLocalidadesConAlumnos(list,TAM_LOCALIDAD,lista,TAM_ALUMNO);
+    printf("\n--------------------------------------------\n");
 
     return 0;
 }
@@ -193,4 +198,20 @@ void notaMayorConNombre(eAlumno lista[],int tam)
         }
     }
     printf("El mayor es %d y el nombre %s\n", mayor, nombre);
+}
+void mostrarLocalidadesConAlumnos(eLocalidad listLoc[], int tamLoc, eAlumno listaAlum[], int tam)
+{
+
+    for(int i=0; i < tamLoc; i++)
+    {
+        printf("localidad: %s\n\n", listLoc[i].localidad);
+        for(int j=0; j < tam; j++)
+        {
+            if(strcmp(listLoc[j].localidad, listaAlum[i].localidadAlumnos)==1)
+            {
+                mostrarListaAlumno(listaAlum, tam);
+            }
+        }
+        printf("\n\n");
+    }
 }
