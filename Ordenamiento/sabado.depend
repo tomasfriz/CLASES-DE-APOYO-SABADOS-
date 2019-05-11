@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1557583263 source:c:\users\alumno\desktop\sabado\alumnos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumnos.h"
+
+1557579858 source:c:\users\alumno\desktop\sabado\localidad.c
+
+1557584013 c:\users\alumno\desktop\sabado\alumnos.h
+
+1557583045 source:c:\users\alumno\desktop\sabado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumnos.h"
+
+1557579860 source:c:\users\alumno\desktop\ordenamiento\localidad.c
+
+1557586592 source:c:\users\alumno\desktop\ordenamiento\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumnos.h"
+
+1557584014 c:\users\alumno\desktop\ordenamiento\alumnos.h
+
+1557584146 source:c:\users\alumno\desktop\ordenamiento\alumnos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alumnos.h"
+
