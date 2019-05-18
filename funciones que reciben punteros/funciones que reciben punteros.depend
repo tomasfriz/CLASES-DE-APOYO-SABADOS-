@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558185407 source:c:\users\alumno\desktop\funciones que reciben punteros\main.c
+	<stdio.h>
+	<stdlib.h>
+
